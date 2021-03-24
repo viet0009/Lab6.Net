@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsioqqE4IY0yPqNrHKiii0gAAAAACAAAAAAAQZgAAAAEAACAAAACxUzYtbQkosC4EsJEzphTGVmue0+9sESCPBtMDZS9CawAAAAAOgAAAAAIAACAAAAAHK70gWFuK7tCd8VrrCsKRnqrB7hhCYrH64Bs5gtdJw4AAAAC0x0lrpyNWCAdmepw9I/tRObslKndccEx33JS18AfK3pIiA4C7ddc+661F5Bdtfv+Ec/JkAepJt4kQwJ69fbJCVw4bHASDot5d+3KEnmL56SRzXySPBiA8tQzsvy8qnMOYyWd8IfmzIkauz9rdjBJyBcHuBT0Zj3JdOPwkOZSLO0AAAAB4ezfBOkYyntKyNKEURf3u9k0KrqY8F3ey9+Ys63t2awoWXgE/1qBvvZ+tV3cqd3sbIY9Xe98TiBR0yXHuVCDO</EncryptedPassword>
+    <History>True|2021-03-24T21:54:20.7450211Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:viet0009sqlserver.database.windows.net,1433%3bInitial Catalog=viet0009lab6%3bPersist Security Info=False%3bUser ID=viet0009%3bPassword=Giaheo1999%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Lab6.Data.StudentDbContext">
+      <Value>Server=tcp:viet0009sqlserver.database.windows.net,1433%3bInitial Catalog=viet0009lab6%3bPersist Security Info=False%3bUser ID=viet0009%3bPassword=Giaheo1999%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
